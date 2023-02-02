@@ -1,0 +1,61 @@
+.calculator{
+    height: 520px;
+    width: 292px;
+    background-color:  black;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.cal-name{
+    background-color: #737373;
+    border-radius: 15px 15px 0 0;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 6px;
+    font-style: italic;
+}
+
+.screen{
+    height: 25%;
+    width: 100%;
+    background-color: #737373;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;   
+}
+
+.keypad button{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    float: left;
+    margin: 6px;
+    border-radius: 40px;
+    font-size: 23px;
+}
+
+#equal{
+   color: white;
+   background-color: #ff0080;
+}
+
+.keypad button:hover{
+    background-color: #666666;
+}
+
+#boxx{
+    background-color:  #1a1a1a;
+}
+
+#boxx:hover{
+    background-color: #666666;
+}
+
+#equal:hover{
+    background-color: #ff66b3;
+
+}
+
+
